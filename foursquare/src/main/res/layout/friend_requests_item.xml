@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/friend_requests_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_sentiment_satisfied_black_24dp"/>
+
+    <Button
+        android:id="@+id/friend_requests_username_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/friend_requests_accept_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="@color/materialGreen"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_check_black_24dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/friend_requests_reject_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        app:backgroundTint="@color/materialRed"
+        android:src="@drawable/ic_clear_black_24dp"/>
+
+</GridLayout>

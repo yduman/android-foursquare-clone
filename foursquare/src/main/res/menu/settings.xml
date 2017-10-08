@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/settings_edit_profile"
+        android:title="@string/edit_profile" />
+
+    <item
+        android:id="@+id/settings_reset_password"
+        android:title="@string/reset_password" />
+
+    <item
+        android:id="@+id/settings_delete_account"
+        android:title="@string/delete_account" />
+
+    <item
+        android:id="@+id/settings_log_out"
+        android:title="@string/log_out" />
+</menu>

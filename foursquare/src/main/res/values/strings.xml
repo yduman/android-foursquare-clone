@@ -1,0 +1,167 @@
+<resources>
+    <!-- Application Strings -->
+    <string name="app_name">Foursquare</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_friends">Friends</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="reset_password">Change Password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="log_out">Logout</string>
+    <string name="title_activity_register">Register</string>
+    <string name="error_bad_request">Bad Request</string>
+
+    <!-- Login Activity -->
+    <string name="title_activity_login">Sign In</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_email_confirm">Confirm Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_login">Incorrect email address or password!</string>
+    <string name="info_profile_deletion">Deleted profile successfully.</string>
+    <string name="info_profile_reset_password">Reset password successfully. Please login with your new password.</string>
+    <string name="action_forgot_password">Forgot Password ?</string>
+    <string name="error_internal_server_error">Internal Server Error.</string>
+    <string name="error_not_authenticated">Authentication Error. Please login again.</string>
+    <string name="action_register_and_sign_in">Register &amp; sign in</string>
+
+    <!-- Register Activity -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_first_name">First name</string>
+    <string name="prompt_last_name">Last name</string>
+    <string name="prompt_age">Age</string>
+    <string name="prompt_domicile">Domicile</string>
+    <string name="prompt_security_question_1">Name of your favourite team</string>
+    <string name="prompt_security_question_2">Maiden name of your mother</string>
+    <string name="error_invalid_registration">Something went wrong with the registration. Try again please.</string>
+    <string name="error_invalid_username">The username must be between 1 – 11 characters.</string>
+    <string name="error_invalid_password_matching">The passwords do not match.</string>
+
+    <!-- Profile Activity -->
+    <string name="title_activity_profile">Profile</string>
+    <string name="username">Username:</string>
+    <string name="email">E-Mail:</string>
+    <string name="fullname">Real name:</string>
+    <string name="age">Age:</string>
+    <string name="location">Location:</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_reset_password">Change Password</string>
+    <string name="action_reset">Reset</string>
+    <string name="delete_profile_warning_msg">Do you really want to delete your account?</string>
+    <string name="delete_profile_button_yes">Yes</string>
+    <string name="delete_profile_button_no">No</string>
+    <string name="prompt_new_password">New password</string>
+    <string name="prompt_new_password_confirm">Confirm password</string>
+    <string name="error_invalid_user">Could not find user.</string>
+    <string name="error_invalid_profile_deletion">Something went wrong while deleting your profile. Try again please.</string>
+    <string name="error_invalid_confirmed_password">New and confirmed password do not match.</string>
+    <string name="error_invalid_reset_password">Something went wrong while resetting your password. Try again please.</string>
+    <string name="error_invalid_log_out">Something went wrong while logging out. Try again please.</string>
+    <string name="info_profile_image_content_description">Profile Picture</string>
+    <string name="info_friendship_button_description">Friendship Button</string>
+    <string name="action_upload_profile_image">Upload Profile Image</string>
+    <string name="button_upload_profile_image">Select Image</string>
+    <string name="error_profile_picture">Could not find user to upload profile picture for.</string>
+    <string name="info_friendship_success">Sent friendship request successfully!</string>
+    <string name="info_unfriend_success">Sad that you guys don\'t want to be friends anymore :(</string>
+
+    <!-- Home Activity -->
+    <string name="title_activity_home">Home</string>
+    <string name="hero_image_text">FOURSQUARE</string>
+    <string name="breakfast_button">Breakfast</string>
+    <string name="lunch_button">Lunch</string>
+    <string name="dinner_button">Dinner</string>
+    <string name="coffee_button">Coffee / Tea</string>
+    <string name="nightlife_button">Nightlife</string>
+    <string name="entertainment_button">Entertainment</string>
+    <string name="content_description_hero_image">Hero Image</string>
+    <string name="content_description_breakfast_button">Breakfast Button</string>
+    <string name="content_description_lunch_button">Breakfast Button</string>
+    <string name="content_description_dinner_button">Lunch Button</string>
+    <string name="content_description_coffee_button">Coffee Button</string>
+    <string name="content_description_nightlife_button">Nightlife Button</string>
+    <string name="content_description_entertainment_button">Entertainment Button</string>
+    <string name="info_location_permission">This app requires location permissions to be granted.</string>
+    <string name="error_fetching_venues">Could not get venues from the server.</string>
+    <string name="venue_search_button">Search</string>
+
+    <!-- Forgot Password Activity -->
+    <string name="title_activity_forgot_password">Account Recovery</string>
+    <string name="action_send">Send</string>
+    <string name="forgot_password_msg">
+        Please provide your e-mail address, your new password and answer
+        your security questions to recover your account.
+    </string>
+    <string name="error_invalid_confirmed_email">New and confirmed email do not match.</string>
+    <string name="error_invalid_credentials">You provided invalid credentials!</string>
+    <string name="info_successful_logout">Successfully logged out.</string>
+
+    <!-- Friends Activity -->
+    <string name="title_friends_activity">Your Friends</string>
+    <string name="title_friend_requests">Your Friend Requests</string>
+    <string name="friend_requests">Friend Requests</string>
+    <string name="content_description_friendship_accept_button">Accept Friendship</string>
+    <string name="content_description_friendship_reject_button">Reject Friendship</string>
+    <plurals name="friend_list_title">
+        <item quantity="one">You have %d friend</item>
+        <item quantity="other">You have %d friends</item>
+    </plurals>
+    <plurals name="friend_request_list_title">
+        <item quantity="one">You have %d request</item>
+        <item quantity="other">You have %d requests</item>
+    </plurals>
+
+    <!-- Venues Activity -->
+    <string name="search_venue">Search Venue</string>
+    <string name="title_venues_activity">Venues</string>
+    <string name="maps_menu_item">Map search</string>
+    <string name="list_menu_item">List search</string>
+    <string name="your_position">You</string>
+    <string name="content_description_maps_info_window_venue_image">Venue Image</string>
+    <string name="error_invalid_venue_request">Something went wrong while requesting the venue.</string>
+    <string name="error_invalid_venue">Venue could not be fetched from the database.</string>
+
+    <!-- Venue Overview Actitvity -->
+    <string name="title_activity_venue_overview">VenueOverviewActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="toast_check_in_warning_msg">You can only check-in every six hours to a venue</string>
+    <string name="toast_check_in_success_msg">Hey you checked in! Leave a feedback to let other users know about your experience here.</string>
+
+    <!-- Comment Activity -->
+    <string name="comment_menu_item">Post Comment</string>
+    <string name="login_subheader">Explore new venues everyday.</string>
+    <string name="navigation_check_ins">Check-Ins</string>
+    <string name="title_check_ins_activity">History</string>
+    <string name="title_chat">Chat</string>
+
+    <string name="action_leave">Leave</string>
+    <string name="prompt_message">Message</string>
+
+    <string name="connect">Connected</string>
+    <string name="disconnect">Disconnected from chat</string>
+    <string name="error_connect">Failed to connect</string>
+
+    <!-- chat -->
+    <string name="message_welcome">- Welcome to Foursquare Chat –</string>
+    <plurals name="message_participants">
+        <item quantity="one">There is %d participant</item>
+        <item quantity="other">There are %d participants</item>
+    </plurals>
+    <string name="message_user_joined">%s joined</string>
+    <string name="message_user_left">%s left</string>
+    <string name="user_action_typing">is typing…</string>
+    <string name="venue_overview_details_header">Details</string>
+    <string name="venue_overview_statistics_header">Statistics</string>
+    <string name="venue_overview_comments_header">Comments</string>
+    <string name="image_upload_success">Successfully uploaded image</string>
+    <string name="otherLocation">Different place?</string>
+    <string name="search_friends">Search Friends</string>
+    <string name="enter_your_friend_s_username">Enter your friend\'s username</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teammike.iptk.foursquare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_foursquare_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDC8cBsSFwy8EIQ7hGKB5cynGyIuZ6mBE4" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:label="@string/title_activity_register" />
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password" />
+        <activity
+            android:name=".activities.FriendsActivity"
+            android:label="@string/title_friends" />
+        <activity
+            android:name=".activities.VenuesActivity"
+            android:label="@string/title_venues_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.VenueOverviewActivity"
+            android:label="@string/title_activity_venue_overview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.CommentActivity" />
+        <activity android:name=".activities.VenuePhotoAlbumActivity" />
+        <activity
+            android:name=".activities.CheckInsActivity"
+            android:label="@string/title_check_ins_activity" />
+        <activity android:name=".activities.ChatActivity" />
+        <activity android:name=".activities.ChatLoginActivity" />
+        <activity android:name=".activities.VenuesMapsActivity" />
+    </application>
+
+</manifest>

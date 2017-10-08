@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <GridLayout
+        android:id="@+id/like_dislike_container"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/comment_like_button"
+            android:scaleType="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:src="@drawable/ic_keyboard_arrow_up_black_24dp"/>
+
+        <TextView
+            android:id="@+id/comment_likes_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:text="0"/>
+
+        <ImageButton
+            android:id="@+id/comment_dislike_button"
+            android:scaleType="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:src="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:id="@+id/comment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/comment_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0000EE"/>
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_below="@id/comment_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/comment_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_content"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

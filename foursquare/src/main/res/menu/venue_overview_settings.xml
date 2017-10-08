@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_venue_img_album"
+        android:icon="@drawable/ic_photo_library_black_24dp"
+        android:title="Venue Images"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_venue_comment"
+        android:icon="@drawable/ic_comment_black_24dp"
+        android:title="Leave a comment"
+        app:showAsAction="ifRoom" />
+
+</menu>

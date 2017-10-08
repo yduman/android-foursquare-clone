@@ -1,0 +1,1 @@
+leave this here, so that git notices this folder, since we are ignoring .jpg files.

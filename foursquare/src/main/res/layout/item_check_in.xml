@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/venue_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginStart="90dp" />
+
+    <ImageView
+        android:id="@+id/venue_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/ic_visibility_off_black_24dp" />
+
+    <TextView
+        android:id="@+id/venue_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/venue_name"
+        android:layout_alignStart="@+id/venue_name" />
+
+    <TextView
+        android:id="@+id/venue_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/venue_category"
+        android:layout_alignStart="@+id/venue_category" />
+
+    <TextView
+        android:id="@+id/venue_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/venue_location"
+        android:layout_alignStart="@id/venue_location" />
+
+</RelativeLayout>

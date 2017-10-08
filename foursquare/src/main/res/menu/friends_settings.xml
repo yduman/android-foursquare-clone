@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings_search_friends"
+        android:icon="@drawable/ic_search_24dp"
+        app:showAsAction="always"
+        android:title="@string/search_friends"/>
+
+    <item
+        android:id="@+id/settings_friend_requests"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        app:showAsAction="always"
+        android:title="@string/friend_requests" />
+</menu>
